@@ -122,7 +122,6 @@ Hotel Results:
 {state['hotel_results']}
 
 Make the itinerary practical, budget-aware, and easy to follow.
-Please provide the answer in Vietnamese.
 """
 
     response = llm.invoke([
@@ -170,6 +169,7 @@ Important:
 - Be clear and practical.
 - Mention that live flight API may not provide ticket prices if pricing is unavailable.
 - Keep the response useful for real travel planning.
+- Please provide the answer in Vietnamese.
 """
 
     response = llm.invoke([
